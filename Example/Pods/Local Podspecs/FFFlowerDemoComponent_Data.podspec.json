@@ -1,6 +1,6 @@
 {
   "name": "FFFlowerDemoComponent_Data",
-  "version": "1",
+  "version": "1.0.1",
   "summary": "Flower项目的数据层组件",
   "description": "TODO: Flower项目的数据层组件，可能依赖于配置组件以及工具组件。",
   "homepage": "https://github.com/jiaojiaozhe/FFFlowerDemoComponent_Data",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/jiaojiaozhe/FFFlowerDemoComponent_Data.git",
-    "tag": "1"
+    "tag": "1.0.1"
   },
   "platforms": {
     "ios": "8.0"
@@ -22,6 +22,12 @@
   "dependencies": {
     "FMDB": [
       "~> 2.7.2"
+    ],
+    "FFFlowerDemoComponent_Config": [
+
+    ],
+    "FFFlowerDemoComponent_Tools": [
+
     ]
   }
 }

@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'FFFlowerDemoComponent_Data'
-  s.version          = '1'
+  s.version          = '1.0.1'
   s.summary          = 'Flower项目的数据层组件'
 
 # This description is used to generate tags and improve search results.
@@ -40,4 +40,6 @@ TODO: Flower项目的数据层组件，可能依赖于配置组件以及工具�
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
   s.dependency 'FMDB', '~> 2.7.2'
+  s.dependency 'FFFlowerDemoComponent_Config'
+  s.dependency 'FFFlowerDemoComponent_Tools'
 end
